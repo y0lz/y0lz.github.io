@@ -1,0 +1,138 @@
+body {
+  color: #121212;
+  background: #fff;
+  font: 100% system-ui;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #eee;
+    background: #121212;
+  }
+
+
+/* edit links*/
+
+a {
+  	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #fff;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+}
+
+ .header{
+    height: 30px; /* Высота блока */
+    max-width: 2160px; /* Ширина блока */
+	min-width: 550px;
+	color: black;
+	padding-left: 15px;
+    background: repeat-y #fc0;
+ }
+ 
+ .image {
+	float: right; 
+ }
+ 
+#center {
+	text-align: center;
+}
+
+.box {
+  float: left;
+  margin-right: 15px;
+  margin-left: 15px;
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  background-color: #262626;
+  padding: 10px;
+}
+
+.boxright {
+  float: right;
+  margin-right: 15px;
+  margin-left: 15px;
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  background-color: #262626;
+  padding: 10px;
+}
+
+.nav {
+    margin: 0px 40px;
+	justify-content: space-between;
+}
+
+.site-footer {
+  max-width: 2160px;
+  min-width: 550px;
+  background-color: #fc0;
+}
+
+.site-footer p {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0px 20px;
+  font-family: cursive;
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+}
+
+.site-footer .container{
+	text-align: center;
+}
+
+.header a {
+	padding: 0px 10px;
+}
+
+.header .name {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header {
+	margin-bottom: 100px 0px;
+}
+
+.emptybox {
+	height: 600px; /* Высота блока */
+    max-width: 2160px; /* Ширина блока */
+	min-width: 550px;
+    background: repeat-y #121212;; /* Цвет фона*/
+}
+
+.emptybox1 {
+	height: 150px; /* Высота блока */
+    max-width: 2160px; /* Ширина блока */
+	min-width: 550px;
+    background: repeat-y #121212; /* Цвет фона*/
+}
+
+.btn {
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px 15px;
+	color: #fff;
+	margin: 0 5px;
+	
+	border: 3px solid #fff;
+	border-radius: 9px;
+}
+
+.edit h2, p {
+ text-align: center;
+}
