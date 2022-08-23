@@ -1,20 +1,38 @@
-body {
-  color: #121212;
-  background: #fff;
-  font: 100% system-ui;
+body{
+  background-color:  #121212;
+  color: antiquewhite;
+  margin: 0;
+  max-width: 2160px;
+  max-height: 1080px;
+  min-width: 1080px;
+  min-height: 540px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    color: #eee;
-    background: #121212;
-  }
+.nav {
+  background-color: rgb(31, 30, 30);
+  display: flex;
+  margin: 15px 10px;
+  justify-content: space-between;
+  color: antiquewhite;
+  padding: 10px 0px;
+  border-radius: 15px;
+  margin: 10;
+}
 
+.navlist{
+  justify-content: center;
+}
+.box h3, a{
+  margin: 0px 15px;
+  text-decoration: none;
+  color: aliceblue;
+}
 
 /* edit links*/
 
 a {
-  	color: black;
+  	color: antiquewhite;
 	text-decoration: none;
 	font-weight: bold;
 }
@@ -28,66 +46,38 @@ a:hover{
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
-
-}
-
- .header{
-    height: 30px; /* Высота блока */
-    max-width: 2160px; /* Ширина блока */
-	min-width: 550px;
-	color: black;
-	padding-left: 15px;
-    background: repeat-y #fc0;
- }
- 
- .image {
-	float: right; 
- }
  
 #center {
 	text-align: center;
 }
 
 .box {
-  float: left;
-  margin-right: 15px;
-  margin-left: 15px;
-  width: 200px;
-  height: 200px;
+  display: flex;
+  text-align: center;
+  margin: 10px;
   border-radius: 5px;
-  background-color: #262626;
+  background-color: rgb(31, 30, 30);
   padding: 10px;
+  width: 80%;
 }
 
-.boxright {
-  float: right;
-  margin-right: 15px;
-  margin-left: 15px;
-  width: 200px;
-  height: 200px;
-  border-radius: 5px;
-  background-color: #262626;
-  padding: 10px;
-}
-
-.nav {
-    margin: 0px 40px;
-	justify-content: space-between;
+.justycentre{
+  display: flex;
+  justify-content: center;
 }
 
 .site-footer {
   max-width: 2160px;
   min-width: 550px;
-  background-color: #fc0;
+  background-color: rgb(31, 30, 30);
 }
 
 .site-footer p {
   display: inline-block;
   vertical-align: middle;
   padding: 0px 20px;
-  font-family: cursive;
   font-size: 15px;
-  color: black;
+  color: antiquewhite;
   font-weight: bold;
 }
 
@@ -95,44 +85,21 @@ h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 }
 
-.header a {
-	padding: 0px 10px;
-}
-
-.header .name {
-	display: flex;
-	justify-content: space-between;
-}
-
-.header {
-	margin-bottom: 100px 0px;
-}
-
-.emptybox {
-	height: 600px; /* Высота блока */
-    max-width: 2160px; /* Ширина блока */
-	min-width: 550px;
-    background: repeat-y #121212;; /* Цвет фона*/
-}
-
-.emptybox1 {
-	height: 150px; /* Высота блока */
-    max-width: 2160px; /* Ширина блока */
-	min-width: 550px;
-    background: repeat-y #121212; /* Цвет фона*/
-}
-
 .btn {
 	display: inline-block;
-	vertical-align: top;
 	padding: 10px 15px;
 	color: #fff;
-	margin: 0 5px;
+	margin: 0px 5px;
 	
 	border: 3px solid #fff;
 	border-radius: 9px;
 }
 
-.edit h2, p {
+.edit h2, p, a {
  text-align: center;
+ margin-left: 15px;
+}
+
+/*img{
+  display: block;
 }
