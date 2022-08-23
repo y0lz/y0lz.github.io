@@ -36,21 +36,16 @@ a {
 	text-decoration: none;
 	font-weight: bold;
 }
-
 a:hover{
 	text-decoration: underline;
 	color: #fff;
 }
-
-
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
- 
 #center {
 	text-align: center;
 }
-
 .box {
   display: flex;
   text-align: center;
@@ -60,18 +55,15 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px;
   width: 80%;
 }
-
 .justycentre{
   display: flex;
   justify-content: center;
 }
-
 .site-footer {
   max-width: 2160px;
   min-width: 550px;
   background-color: rgb(31, 30, 30);
 }
-
 .site-footer p {
   display: inline-block;
   vertical-align: middle;
@@ -80,11 +72,9 @@ h1, h2, h3, h4, h5, h6 {
   color: antiquewhite;
   font-weight: bold;
 }
-
 .site-footer .container{
 	text-align: center;
 }
-
 .btn {
 	display: inline-block;
 	padding: 10px 15px;
@@ -94,12 +84,7 @@ h1, h2, h3, h4, h5, h6 {
 	border: 3px solid #fff;
 	border-radius: 9px;
 }
-
 .edit h2, p, a {
  text-align: center;
  margin-left: 15px;
-}
-
-/*img{
-  display: block;
 }
