@@ -48,6 +48,12 @@ a {
   background-color: #121212
 }
 
+.project a:hover{
+  text-decoration: none;
+	color: #fff;
+  background-color: #121212
+}
+
   
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
@@ -105,22 +111,23 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn {
   display: inline-block;
-  padding: 10px 15px;
-  color: #fff;
-  margin: 0px 5px;
+	padding: 10px 30px;
+	color: #121212;
+	margin: 0px 5px;
 	
-  border: 3px solid #fff;
-  border-radius: 9px;
+  font-size: 18px;
+  background-color: #fff;
+	border-radius: 20px;
 }
 
 .btnlink {
   display: inline-block;
-  padding: 10px 30px;
-  color: #121212;
-  margin: 0px 5px;
+	padding: 10px 30px;
+	color: #121212;
+	margin: 0px 5px;
   width: 220px;
 	
   font-size: 18px;
   background-color: #fff;
-  border-radius: 20px;
+	border-radius: 20px;
 }
