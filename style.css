@@ -5,7 +5,7 @@ body{
   max-width: 2160px;
   max-height: 1080px;
   min-width: 1080px;
-  min-height: 540px;
+  min-height: 440px;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -32,20 +32,31 @@ body{
 /* edit links*/
 
 a {
-  	color: antiquewhite;
+  color: antiquewhite;
 	text-decoration: none;
 	font-weight: bold;
 }
-a:hover{
-	text-decoration: underline;
-	color: #fff;
+
+.nav a:hover{
+  text-decoration: underline;
+  color: #fff;
 }
+
+.justycentre a:hover{
+	text-decoration: none;
+	color: #fff;
+  background-color: #121212
+}
+
+  
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
+ 
 #center {
 	text-align: center;
 }
+
 .box {
   display: flex;
   text-align: center;
@@ -55,15 +66,30 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px;
   width: 80%;
 }
+
+.edit h2, p, a {
+  text-align: center;
+  margin-left: 15px;
+}
+
+.boxinfo {
+  margin: 10px;
+  border-radius: 5px;
+  background-color: rgb(31, 30, 30);
+  padding: 10px;
+}
+
 .justycentre{
   display: flex;
   justify-content: center;
 }
+
 .site-footer {
   max-width: 2160px;
   min-width: 550px;
   background-color: rgb(31, 30, 30);
 }
+
 .site-footer p {
   display: inline-block;
   vertical-align: middle;
@@ -72,19 +98,29 @@ h1, h2, h3, h4, h5, h6 {
   color: antiquewhite;
   font-weight: bold;
 }
+
 .site-footer .container{
 	text-align: center;
 }
+
 .btn {
-	display: inline-block;
-	padding: 10px 15px;
-	color: #fff;
-	margin: 0px 5px;
+  display: inline-block;
+  padding: 10px 15px;
+  color: #fff;
+  margin: 0px 5px;
 	
-	border: 3px solid #fff;
-	border-radius: 9px;
+  border: 3px solid #fff;
+  border-radius: 9px;
 }
-.edit h2, p, a {
- text-align: center;
- margin-left: 15px;
+
+.btnlink {
+  display: inline-block;
+  padding: 10px 30px;
+  color: #121212;
+  margin: 0px 5px;
+  width: 220px;
+	
+  font-size: 18px;
+  background-color: #fff;
+  border-radius: 20px;
 }
