@@ -2,31 +2,66 @@ body{
   background-color:  #121212;
   color: antiquewhite;
   margin: 0;
-  max-width: 2160px;
-  max-height: 1080px;
-  min-width: 1080px;
-  min-height: 440px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
-.nav {
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+.site {
+ justify-content: center;
+ background-color: grey;
+ max-width: 1980px;
+}
+
+.nav ul {
   background-color: rgb(31, 30, 30);
+  margin: 15px 40px;
   display: flex;
-  margin: 15px 10px;
-  justify-content: space-between;
   color: antiquewhite;
   padding: 10px 0px;
   border-radius: 15px;
-  margin: 10;
+  list-style-type: none
 }
 
-.navlist{
-  justify-content: center;
+.push-left {
+  margin-right: auto;
 }
+
+.block-info {
+  margin-left: 40px;
+  margin-right: 15px;
+  padding: 10px;
+  display: grid;
+  float: left;
+  background-color: #1f1e1e;
+  border-radius: 15px;
+  max-width: 25%;
+  min-width: 25%;
+}
+
+.block-footer {
+  text-align: center;
+}
+
+.block-listed h4 {
+  background-color:  #121212;
+  border-radius: 15px; 
+  text-align: center;
+  margin: 10px 0px;
+  padding: 5px;
+}
+
+.block {
+  margin-right: 40px;
+  display: grid;
+}
+
 .box h3, a{
   margin: 0px 15px;
   text-decoration: none;
-  color: aliceblue;
+  color: antiquewhite;
 }
 
 /* edit links*/
@@ -50,17 +85,12 @@ a {
 
 .project a:hover{
   text-decoration: none;
-  color: #fff;
+	color: #fff;
   background-color: #121212
 }
 
-  
-h1, h2, h3, h4, h5, h6 {
-	margin: 0;
-}
- 
 #center {
-  text-align: center;
+	text-align: center;
 }
 
 .box {
@@ -78,21 +108,26 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 15px;
 }
 
-.boxinfo {
+.box-info {
+  display: block;
   margin: 10px;
   border-radius: 5px;
   background-color: rgb(31, 30, 30);
   padding: 10px;
+  width: 300px;
 }
 
-.justycentre{
+.box-info p {
+  display: flex;
+  justify-content: center;
+}
+
+.box-content {
   display: flex;
   justify-content: center;
 }
 
 .site-footer {
-  max-width: 2160px;
-  min-width: 550px;
   background-color: rgb(31, 30, 30);
 }
 
@@ -106,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .site-footer .container{
-	text-align: center;
+  text-align: center;
 }
 
 .btn {
@@ -114,14 +149,13 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 30px;
   color: #121212;
   margin: 0px 5px;
-	
+  
   font-size: 18px;
   background-color: #fff;
-  border-radius: 20px;
+	border-radius:  20px;
 }
 
 .btnlink {
-  display: inline-block;
   padding: 10px 30px;
   color: #121212;
   margin: 0px 5px;
