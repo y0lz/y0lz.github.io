@@ -103,7 +103,7 @@ a {
 .boxes-info {
   display: grid;
   grid-template-columns: 60px auto;
-  grid-template-rows: 40px auto 50px; 
+  grid-template-rows: auto auto 50px; 
   text-align: center;
   margin: 10px;
   border-radius: 5px;
