@@ -102,8 +102,8 @@ a {
 
 .boxes-info {
   display: grid;
-  grid-template-columns: 60px 1fr;
-  grid-template-rows: 40px 20em 50px; 
+  grid-template-columns: 60px auto;
+  grid-template-rows: 40px auto 50px; 
   text-align: center;
   margin: 10px;
   border-radius: 5px;
