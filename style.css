@@ -23,6 +23,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: auto;
 }
 
+.status{
+  margin-left: 10px;
+}
+
 .block {
   margin-right: 40px;
   display: grid;
@@ -55,8 +59,8 @@ a {
 
 .project a:hover{
   text-decoration: none;
-	color: #fff;
-  background-color: #121212;
+	color: #121212;
+  background-color: #ffffff;
   transition: .7s;
 }
 
@@ -64,17 +68,48 @@ a {
   text-decoration: none;
 	color: #fff;
   background-color: #121212;
-  transition: .7s;
+  border-bottom: 4px #ffffff solid;
+  transition: .4s;
 }
 
 #center {
 	text-align: center;
 }
 
+/*box color*/
+
+.b-orange{
+ border-left: 5px darkgoldenrod solid;
+}
+.b-blue{
+ border-left: 5px rgb(38, 38, 73) solid;
+}
+.b-green{
+  border-left: 5px greenyellow solid;
+ }
+
+/*main page setting*/
+
+.box-main{
+ background-color: rgb(33, 31, 34);
+}
+
+.box-slider{
+  display: block;
+  background-color: cadetblue;
+}
+.box-hover{
+  display: block;
+  width: 70%;
+  background-color: rgb(20, 116, 201);
+}
+
+/*grid template*/
+
 .boxes {
   display: grid;
   grid-template-columns: 220px 1fr;
-  grid-template-rows: 40px 220px 50px; 
+  grid-template-rows: 40px 120px 50px 50px; 
   text-align: center;
   margin: 10px;
   border-radius: 5px;
@@ -84,7 +119,8 @@ a {
 
   grid-template-areas: 'a a' 
                        'b c' 
-                       'd d'; 
+                       'b d'
+                       'b -'; 
 }
 
 #a {
@@ -117,17 +153,13 @@ a {
 }
 
 .box-info {
-  margin: 10px;
-  border-radius: 5px;
-  background-color: rgb(31, 30, 30);
-  padding: 15px;
-  width: 40vmax;
+  width: auto;
   height: 25%;
   text-align: center;
 }
 
 .box-info p {
-  display: flex;
+  display: inline-block;
   justify-content: center;
 }
 
@@ -156,21 +188,34 @@ a {
 .btn {
   display: inline-block;
 	padding: 10px 30px;
-	color: #121212;
+  background-color: #121212;
+	color: #fff;
 	margin: 0px 5px;
   
   font-size: 18px;
-  background-color: #6980d3;
 	border-radius:  20px;
 }
 
 .btnlink {
-	padding: 10px 30px;
-	color: #121212;
+	padding: 10px 6px;
+	color: #f3f3f3;
 	margin: 0px 5px;
-  width: 220px;
+  width: auto;
 	
   font-size: 18px;
-  background-color: #fff;
-	border-radius: 20px;
+  background-color: #252525;
+	border-radius: 15px;
+}
+
+.btn-hov{
+  display: block;
+  background-color: #121212;
+	color: #fff;
+  padding: 10px;
+  margin: 0px;
+}
+
+.images-color{
+  filter: invert(100%); 
+  -webkit-filter:invert(100%); ;
 }
