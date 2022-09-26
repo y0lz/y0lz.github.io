@@ -1,0 +1,300 @@
+body{
+    margin: 0px;
+    left: 45%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+p, h1 , h2 , h3 , h4 , h5 , h6 {
+    margin: 0px;
+}
+
+.body-img{
+    background-image: url("https://azurgames.com/wp-content/uploads/2021/09/main_bg-scaled-1.jpg");
+    background-attachment: fixed;
+    width: 1980px;
+    height: 1080px;
+}
+
+.navbar h3 {
+    display: flex;
+}
+
+.navbar li {
+    margin: 10px;
+    list-style-type: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+.nav-left {
+    margin-right: auto;
+}
+
+.navbar span{
+    margin: 15px 40px;
+}
+
+.common {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .common:hover {
+    border-top: #fff 3px solid;
+    transition: 0.7s;
+}
+
+.send-btn {
+    background-color: #e40046;
+    padding: 8px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.send-btn:hover{
+    opacity: 75%;
+    transition: 1s;
+}
+
+.logo-btn:hover{
+    opacity: 75%;
+    transition: 1s;
+}
+
+.name-titile , h1{
+    position: relative;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    top: 45%;
+    font-size: 100px;
+}
+
+.box-air {
+    width: 1980px;
+    height: 200px;
+}
+
+.tablee {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 60% 1fr;
+    margin: 0px 100px;
+    max-width: 1980px;
+
+    grid-template-areas: 'a b'
+                         'a b';
+}
+
+.tablee1 {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    grid-template-rows: 55% 1fr;
+    margin:  0px 100px;
+    max-width: 1980px;
+
+
+    grid-template-areas: 'a b'
+                         'a b';
+}
+
+.tablee2 {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 40% 1fr;
+    margin: 0px 100px;
+    max-width: 1980px;
+
+    grid-template-areas: 'a b'
+                         'a b';
+}
+
+.tablee3 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto auto;
+    margin: 20px 100px;
+    max-width: 1980px;
+
+    grid-template-areas: 'a a a'
+                         'b c d';
+}
+
+#a {
+    grid-area: a;
+}
+
+#b {
+    grid-area: b;
+}
+
+#c {
+    grid-area: c;
+}
+
+#d {
+    grid-area: d;
+}
+
+.box-content-left{
+    color: #262626;
+    margin-right: 50px;
+}
+
+.box-content-left p{
+    font-size: 24px;
+}
+
+.box-content-left h2{
+    font-size: 58px;
+}
+
+.box-content-left h3{
+    margin: 15px 0px;
+    font-size: 30px;
+}
+
+.box-content-left ul{
+    font-size: 22px;
+    font-weight: bold;
+}
+.box-content-left li { 
+    margin: 10px;
+}
+
+.rocket-btn{
+    background-color: #e40046;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.rocket-btn:hover {
+    opacity: 75%;
+    transition: 1s;
+}
+
+.box-content-right{
+    color: #262626;
+}
+
+.tabletos-grid { 
+    display: grid;
+    margin: 40px 0px;
+    grid-template-rows: 50% 1fr;
+    grid-template-columns: 50% 1fr;
+
+    grid-template-areas: 'a b'
+                         'c d';
+
+}
+
+.text h3 {
+    font-size: 38px;
+    margin: 0px;
+}
+
+.text p {
+    font-size: 18px;
+    margin: 0px;
+}
+
+.text h4 {
+    font-size: 24px;
+}
+
+.grid-content {
+ margin: 30px;
+}
+
+.grid-content h3{
+    font-size: 24px;
+}
+
+.bold {
+    font-size: bold;
+}
+
+.btn-news:hover {
+    opacity: 80%;
+}
+
+.btn-b {
+ color: blue;
+}
+
+.btn-g {
+    color: rgb(46, 165, 42);
+}
+
+.btn-back {
+    color: #1256fb;
+    text-decoration: none;
+    display: flex;
+    justify-content: right;
+    margin-top: 60px;
+}
+
+.btn-back:hover {
+    opacity: 80%;
+    transition: 1s;
+}
+  
+.footer {
+ background-color: #1256fb;
+ padding: 50px;
+ width: 1980px;
+}
+
+.footer li {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 25px 0px;
+}
+
+.grid-footer {
+    display: grid;
+    grid-template-columns: 380px 380px 380px 380px;
+    grid-template-rows: auto auto;
+    margin: 0px 200px;
+    background-color: #1256fb;
+    color: #fff;
+    max-width: 1980px;
+
+    grid-template-areas: 'a b c d'
+                         'a b c d';
+}
+
+.non-decor {
+    list-style: none;
+}
+
+.footer-line p{
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    color: #262626;
+    text-align: center;
+}
+
+.footer-cancel {
+    display: flex;
+    justify-content: center;
+}
+.air {
+    width: 1000px;
+    height: 2px;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    margin: 0px 25%;
+}
+.footer-cancel p{
+    color: #fff;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
