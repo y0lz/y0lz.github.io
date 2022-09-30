@@ -8,7 +8,7 @@
 
 
 /*Мобильный адаптив*/
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 200px) {
     h3 {
         font-size: 1.2em; 
     }
