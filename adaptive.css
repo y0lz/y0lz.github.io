@@ -1,0 +1,10 @@
+@media all (max-width 1100px) {
+    .boxes-info {
+    width: 40vh;
+     }
+    }
+    @media all (max-width 300px) {
+    .boxes-info {
+    width: 90vh;
+     }
+    }
