@@ -8,30 +8,40 @@
 
 
 /*Мобильный адаптив*/
-@media (max-width: 450px) {
-    body  {
-        background-color: #fff;
-    }
+@media screen and (max-width: 900px) {
     h3 {
         font-size: 1.2em; 
-        margin: 0.9rem;
-        color: #121212;
     }
-
+    h2 {
+        font-size: 1.7em; 
+        margin: .9rem 0;
+    }
     h6 {
         font-size: 0.9em; 
-        color: orange;
     }
 
-    .box-content {
-    background-color: #fff;
+    .boxes-info {
+        width: 92vw;
+        border-radius: 15px;
+        margin-bottom: 10%;
+    }
+
+    .btnlink {
+     width: auto;
+     padding: 35% 0px;
+     border-radius: 30px;
     }
 
     .box-info img {
-        height: 100px;
+        height: 10%;
     }
 
     .nav {
-        width: 100%;
+        display: inline-block;
+        justify-content: center;
+    }
+    .nav ul {
+        width: 96vw;
+        margin: 10px 0;
     }
 }
