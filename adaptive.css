@@ -1,10 +1,37 @@
-@media all (max-width 1100px) {
+/*ПК адаптив
+@media screen (max-width 1100px) {
     .boxes-info {
     width: 40vh;
-     }
+ }
+}
+*/
+
+
+/*Мобильный адаптив*/
+@media (max-width: 450px) {
+    body  {
+        background-color: #fff;
     }
-    @media all (max-width 300px) {
-    .boxes-info {
-    width: 90vh;
-     }
+    h3 {
+        font-size: 1.2em; 
+        margin: 0.9rem;
+        color: #121212;
     }
+
+    h6 {
+        font-size: 0.9em; 
+        color: orange;
+    }
+
+    .box-content {
+    background-color: #fff;
+    }
+
+    .box-info img {
+        height: 100px;
+    }
+
+    .nav {
+        width: 100%;
+    }
+}
